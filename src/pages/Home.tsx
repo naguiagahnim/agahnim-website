@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import HomeContent from "./HomeContent";
 
 export default function Home() {
 
@@ -25,10 +26,12 @@ export default function Home() {
           >
             <audio src="/audio/startup.mp3" autoPlay playsInline/>
             <p>Y'a eu transition</p>
+            <HomeContent/>
           </motion.div>
         ) : (
           <div className="p-4">
             <p>Y'a pas eu transition</p>
+            <HomeContent/>
         </div>
         )}
       </>
