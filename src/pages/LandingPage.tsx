@@ -9,7 +9,7 @@ export default function LandingPage() {
     return (
         <div className="landing-page">
           <h1>Bienvenue, voyageur céleste</h1>
-          <button onClick={handleEnter}>
+          <button className="bg-blue-100" onClick={handleEnter}>
             Entrer en la cité intérieure
           </button>
         </div>
