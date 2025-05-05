@@ -23,6 +23,7 @@ export default function Home() {
             transition={{ duration: 1 }}
             className="p-4"
           >
+            <audio src="/audio/startup.mp3" autoPlay playsInline/>
             <p>Y'a eu transition</p>
           </motion.div>
         ) : (
