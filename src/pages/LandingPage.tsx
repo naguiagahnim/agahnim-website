@@ -19,7 +19,7 @@ export default function LandingPage() {
         <AnimatePresence>
         {!leaving && (
             <motion.div
-                className="landing-page"
+                className="landing-page bg-[url(/images/landing.jpg)] bg-cover bg-center h-screen w-screen"
                 initial={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 1 }}
