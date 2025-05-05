@@ -1,13 +1,9 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom"
 
 export default function Home() {
 
   const [shouldAnimate, setShouldAnimate] = useState(false)
-
-  const location = useLocation();
-  let fromLanding = location.state?.fromLanding || false
 
   useEffect(() => {
     const fromLanding = sessionStorage.getItem("fromLanding");
