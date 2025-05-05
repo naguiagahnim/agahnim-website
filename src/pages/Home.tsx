@@ -22,15 +22,12 @@ export default function Home() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
-            className="p-4"
           >
             <audio src="/audio/startup.mp3" autoPlay playsInline/>
-            <p>Y'a eu transition</p>
             <HomeContent/>
           </motion.div>
         ) : (
-          <div className="p-4">
-            <p>Y'a pas eu transition</p>
+          <div>
             <HomeContent/>
         </div>
         )}
