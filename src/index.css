@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+/*Si seulement Firefox avait un meilleur support CSS*/ 
+
 .crt::before {
     content: " ";
     display: block;
