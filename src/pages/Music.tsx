@@ -29,6 +29,20 @@ export default function Music() {
                         Et quand l’ombre viendra, que la musique demeure, veilleuse éternelle de mes pensées.
                     </p>
                 </div>
+
+                <div className="flex space-x-4">
+                    <div className="bg-white bg-opacity-80 p-4 rounded shadow-md">
+                        <p className="text-sm font-dotgothic">
+                            Et quand l’ombre viendra, que la musique demeure, veilleuse éternelle de mes pensées.
+                        </p>
+                    </div>
+
+                    <div className="bg-white bg-opacity-80 p-4 rounded shadow-md">
+                        <p className="text-sm font-dotgothic">
+                            Et quand l’ombre viendra, que la musique demeure, veilleuse éternelle de mes pensées.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     );
