@@ -8,28 +8,65 @@ import { Play, Pause, SkipBack, SkipForward, Volume2, X, Minimize, Square } from
 const defaultTracks = [
   {
     id: 1,
-    title: "Hindsight",
+    title: "DAWN",
     artist: "Agahnim",
-    src: "/music/win95-startup.mp3",
+    src: "/music/DAWN.mp3",
   },
   {
     id: 2,
-    title: "Good old times",
+    title: "Move on",
     artist: "Agahnim",
-    src: "/music/win95-startup.mp3",
+    src: "/music/move_on.mp3",
   },
   {
     id: 3,
-    title: "Justice",
+    title: "Carcer",
     artist: "Agahnim",
-    src: "/music/win95-startup.mp3",
+    src: "/music/carcer.mp3",
   },
   {
     id: 4,
     title: "Under listening",
     artist: "Agahnim",
-    src: "/music/win95-startup.mp3",
+    src: "/music/listening.mp3",
   },
+  {
+    id: 5,
+    title: "Fading away",
+    artist: "Agahnim",
+    src: "/music/fading.mp3",
+  },
+  {
+    id: 6,
+    title: "I'm getting tired of farewells",
+    artist: "Agahnim",
+    src: "/music/farewells.mp3",
+  },
+  {
+    id: 7,
+    title: "Hindsight",
+    artist: "Agahnim",
+    src: "/music/hindsight.mp3",
+  },
+  {
+    id: 8,
+    title: "With or without",
+    artist: "Agahnim",
+    src: "/music/without.mp3",
+  },
+  {
+    id: 9,
+    title: "Perfect Light",
+    artist: "Agahnim",
+    src: "/music/perfect_light.mp3",
+  },
+  {
+    id: 10,
+    title: "Good old times",
+    artist: "Agahnim",
+    src: "/music/times.mp3",
+  },
+
 ]
 
 export default function AudioPlayer({ tracks = defaultTracks }) {
@@ -149,7 +186,7 @@ export default function AudioPlayer({ tracks = defaultTracks }) {
     <div className="w-80 select-none font-dotgothic z-10 static">
       <div className="border-2 border-t-white border-l-white border-b-gray-500 border-r-gray-500 bg-[#c0c0c0] shadow-md">
         <div className="flex items-center justify-between bg-[#000080] px-1.5 py-1 text-sm text-white">
-          <div className="font-bold">Player</div>
+          <div className="font-bold">Music Player</div>
           <div className="flex gap-0.5">
             <button
               onClick={toggleMinimize}
