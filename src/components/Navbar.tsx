@@ -35,7 +35,7 @@ export default function Navbar() {
           <li className="nav-item">
             <Link 
               to="/home" 
-              className={`navbar-link ${isActive('/') ? 'active' : ''}`}
+              className={`navbar-link ${isActive('/home') ? 'active' : ''}`}
               onClick={() => setIsOpen(false)}
             >
               <Home size={14} />

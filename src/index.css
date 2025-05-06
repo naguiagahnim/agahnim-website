@@ -1,7 +1,13 @@
 @import "tailwindcss";
 
 /*Si seulement Firefox avait un meilleur support CSS*/ 
-
+@theme {
+  --color-lavender-ouga: #cdb4db;
+  --color-light-pink-ouga: #ffc8dd;
+  --color-pink-ouga: #ffafcc;
+  --color-light-blue-ouga: #bde0fe;
+  --color-blue-ouga: #a2d2ff; 
+}
 .crt::before {
     content: " ";
     display: block;
