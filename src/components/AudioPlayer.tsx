@@ -185,7 +185,7 @@ export default function AudioPlayer({ tracks = defaultTracks }) {
   return (
     <div className="w-80 select-none font-dotgothic z-10 static">
       <div className="border-2 border-t-white border-l-white border-b-gray-500 border-r-gray-500 bg-[#c0c0c0] shadow-md">
-        <div className="flex items-center justify-between bg-[#000080] px-1.5 py-1 text-sm text-white">
+        <div className="flex items-center justify-between bg-darker-pink-ouga px-1.5 py-1 text-sm text-white">
           <div className="font-bold">Music Player</div>
           <div className="flex gap-0.5">
             <button
@@ -268,13 +268,13 @@ export default function AudioPlayer({ tracks = defaultTracks }) {
             </div>
 
             <div className="m-2 border-2 border-t-gray-500 border-l-gray-500 border-b-white border-r-white bg-white">
-              <div className="sticky top-0 bg-[#000080] px-1 py-0.5 text-xs font-bold text-white">Track List</div>
+              <div className="sticky top-0 bg-darker-pink-ouga px-1 py-0.5 text-xs font-bold text-white">Track List</div>
               <div className="max-h-[150px] overflow-y-auto p-1">
                 {tracks.map((track, index) => (
                   <div
                     key={track.id}
                     className={`cursor-pointer truncate p-1 text-xs hover:bg-gray-100 ${
-                      index === currentTrackIndex ? "bg-[#000080] text-white" : ""
+                      index === currentTrackIndex ? "bg-darker-pink-ouga text-white" : ""
                     }`}
                     onClick={() => handleTrackSelect(index)}
                   >
