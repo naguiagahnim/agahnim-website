@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css2?family=DotGothic16&display=swap";
 @import "tailwindcss";
 
 /*Si seulement Firefox avait un meilleur support CSS*/ 
@@ -7,6 +8,8 @@
   --color-pink-ouga: #ffafcc;
   --color-light-blue-ouga: #bde0fe;
   --color-blue-ouga: #a2d2ff; 
+
+  --font-dotgothic: "DotGothic16", sans-serif
 }
 .crt::before {
     content: " ";
