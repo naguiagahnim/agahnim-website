@@ -6,7 +6,7 @@ export default function App() {
   const location = useLocation();
 
   return (
-    <div className="crt">
+    <div className="crt relative z-99">
       <Routes location={location}>
         <Route path="/" element={<LandingPage/>} />
         <Route path="/home" element={<Home/>} />
