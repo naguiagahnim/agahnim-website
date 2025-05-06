@@ -31,13 +31,13 @@ export default function Music() {
                 </div>
 
                 <div className="flex space-x-4">
-                    <div className="bg-white bg-opacity-80 p-4 rounded shadow-md">
+                    <div className="bg-white bg-opacity-80 p-4 rounded shadow-md flex-1">
                         <p className="text-sm font-dotgothic">
                             Et quand l’ombre viendra, que la musique demeure, veilleuse éternelle de mes pensées.
                         </p>
                     </div>
 
-                    <div className="bg-white bg-opacity-80 p-4 rounded shadow-md">
+                    <div className="bg-white bg-opacity-80 p-4 rounded shadow-md flex-[0.5]">
                         <p className="text-sm font-dotgothic">
                             Et quand l’ombre viendra, que la musique demeure, veilleuse éternelle de mes pensées.
                         </p>
