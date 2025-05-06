@@ -30,7 +30,6 @@
   z-index: 2147483649;
   background: rgba(0, 0, 0, 0.3);
   opacity: 0.75;
-  animation: scanline 6s linear infinite;
 }
 .crt:after {
   top: 0;
@@ -47,11 +46,6 @@
   animation: scanlines 1s steps(60) infinite;
 }
 
-@keyframes scanline {
-  0% {
-      transform: translate3d(0, 200000%, 0);
-  }
-}
 @keyframes scanlines {
   0% {
       background-position: 0 50%;
