@@ -15,7 +15,7 @@ export default function Music() {
                 preload="auto"
             ></video>
 
-            <div className="relative z-10 flex flex-col items-center px-4 space-y-4">
+            <div className="relative z-10 flex flex-col items-center px-4 space-y-4 max-w-4xl mx-auto p-6">
                 <AudioPlayer />
 
                 <div className="bg-white bg-opacity-80 p-4 rounded shadow-md">
