@@ -4,24 +4,21 @@ import Home from "./pages/Home"
 import Music from "./pages/Music";
 import About from "./pages/About";
 import Dev from "./pages/Dev";
-import { AnimatePresence } from "framer-motion";
-import Navbar from "./components/Navbar";
 
 export default function App() {
   const location = useLocation();
 
   return (
-    <AnimatePresence mode="wait">
-      <div className="crt relative z-99">
-        <Navbar/>
-        <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<LandingPage/>} />
-          <Route path="/home" element={<Home/>} />
-          <Route path="/about" element={<About/>} />
-          <Route path="/dev" element={<Dev/>} />
-          <Route path="/music" element={<Music/>} />
-        </Routes>
+      <div className="crt relative z-99 h-screen w-screen flex flex-col overflow-hidden">
+        <div className="flex-1 overflow-y-auto">
+          <Routes location={location} key={location.pathname}>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/dev" element={<Dev />} />
+            <Route path="/music" element={<Music />} />
+          </Routes>
+        </div>
       </div>
-    </AnimatePresence>
   );
 }
