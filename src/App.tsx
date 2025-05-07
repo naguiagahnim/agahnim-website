@@ -5,7 +5,6 @@ import Music from "./pages/Music";
 import About from "./pages/About";
 import Dev from "./pages/Dev";
 import { AudioProvider } from "./components/AudioContext.tsx";
-import Footer from "./components/Footer.tsx";
 import Navbar from "./components/Navbar.tsx";
 
 export default function App() {
@@ -24,7 +23,6 @@ export default function App() {
             <Route path="/music" element={<Music />} />
           </Routes>
         </div>
-       {location.pathname !=="/" && <Footer/>}
       </div>
     </AudioProvider>
   );
