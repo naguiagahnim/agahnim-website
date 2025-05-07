@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Home, User, Heart, Terminal, Music } from 'lucide-react';
-import '../styles/Navbar.css';
+import '/src/styles/Navbar.css';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
