@@ -5,6 +5,8 @@ import Music from "./pages/Music";
 import About from "./pages/About";
 import Dev from "./pages/Dev";
 import { AudioProvider } from "./components/AudioContext.tsx";
+import Footer from "./components/Footer.tsx";
+import Navbar from "./components/Navbar.tsx";
 
 export default function App() {
   const location = useLocation();
@@ -12,6 +14,7 @@ export default function App() {
   return (
     <AudioProvider>
       <div className="crt relative z-99 h-screen w-screen flex flex-col overflow-hidden">
+      {location.pathname !== "/" && <Navbar />}
         <div className="flex-1 overflow-y-auto">
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<LandingPage />} />
@@ -21,6 +24,7 @@ export default function App() {
             <Route path="/music" element={<Music />} />
           </Routes>
         </div>
+       {location.pathname !=="/" && <Footer/>}
       </div>
     </AudioProvider>
   );
