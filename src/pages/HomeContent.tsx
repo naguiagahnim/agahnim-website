@@ -33,7 +33,13 @@ export default function HomeContent() {
                         </div>
                     </div>
 
-                    <div className="bg-white bg-opacity-80 p-4 rounded shadow-md flex-[0.3]">
+                    <div className="bg-white bg-opacity-80 p-4 rounded shadow-md flex-[0.3] font-dotgothic">
+                        <h1 className="text-darkerer-pink-ouga">Socials !</h1>
+                        <div className="flex flex-row space-x-10 mt-3">
+                            <a href="https://github.com/naguiagahnim" target="_blank"><img src="/icons/github.webp" width="30px" className="hover:animate-bounce"/></a>
+                            <a href="https://open.spotify.com/intl-fr/artist/4BPUhsH6krKkCNFrdMZnZF?si=E3luyIf0S_yfJRmm82S5OA" target="_blank"><img src="/icons/spotify.webp" width="30px" className="hover:animate-bounce"/></a>
+                            <a href="https://www.instagram.com/agahnim_music/" target="_blank"><img src="/icons/insta.webp" width="30px" className="hover:animate-bounce"/></a>
+                        </div>
                     </div>
                 </div>
             </div>
