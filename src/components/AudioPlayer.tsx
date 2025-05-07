@@ -8,63 +8,73 @@ import { Play, Pause, SkipBack, SkipForward, Volume2, X, Minimize, Square } from
 const defaultTracks = [
   {
     id: 1,
-    title: "DAWN",
-    artist: "Agahnim",
-    src: "/music/DAWN.mp3",
-  },
-  {
-    id: 2,
-    title: "Move on",
-    artist: "Agahnim",
-    src: "/music/move_on.mp3",
-  },
-  {
-    id: 3,
-    title: "Carcer",
-    artist: "Agahnim",
-    src: "/music/carcer.mp3",
-  },
-  {
-    id: 4,
-    title: "Under listening",
-    artist: "Agahnim",
-    src: "/music/listening.mp3",
-  },
-  {
-    id: 5,
-    title: "Fading away",
-    artist: "Agahnim",
-    src: "/music/fading.mp3",
-  },
-  {
-    id: 6,
     title: "I'm getting tired of farewells",
     artist: "Agahnim",
     src: "/music/farewells.mp3",
+    album: "LIFE"
+  },
+  {
+    id: 2,
+    title: "DAWN",
+    artist: "Agahnim",
+    src: "/music/DAWN.mp3",
+    album: "DAWN"
+  },
+  {
+    id: 3,
+    title: "Move on",
+    artist: "Agahnim",
+    src: "/music/move_on.mp3",
+    album: "DAWN"
+  },
+  {
+    id: 4,
+    title: "Carcer",
+    artist: "Agahnim",
+    src: "/music/carcer.mp3",
+    album: "LIFE"
+  },
+  {
+    id: 5,
+    title: "Under listening",
+    artist: "Agahnim",
+    src: "/music/listening.mp3",
+    album: "Justice"
+  },
+  {
+    id: 6,
+    title: "Fading away",
+    artist: "Agahnim",
+    src: "/music/fading.mp3",
+    album: "LIFE"
   },
   {
     id: 7,
     title: "Hindsight",
     artist: "Agahnim",
     src: "/music/hindsight.mp3",
+    album: "The End"
   },
   {
     id: 8,
     title: "With or without",
     artist: "Agahnim",
     src: "/music/without.mp3",
+    album: "Extinction"
   },
   {
     id: 9,
     title: "Perfect Light",
     artist: "Agahnim",
     src: "/music/perfect_light.mp3",
+    album: "Rebirth"
   },
   {
     id: 10,
     title: "Good old times",
     artist: "Agahnim",
     src: "/music/times.mp3",
+    album: "Extinction"
   },
 
 ]
@@ -211,7 +221,7 @@ export default function AudioPlayer({ tracks = defaultTracks }) {
             <div className="flex items-center justify-between border-b border-gray-500 p-2">
               <div className="max-w-[70%]">
                 <div className="truncate text-sm font-bold">{currentTrack.title}</div>
-                <div className="text-xs text-gray-700">{currentTrack.artist}</div>
+                <div className="text-xs text-gray-700">{currentTrack.artist} - {currentTrack.album}</div>
               </div>
               <div className="text-sm">
                 <span>{formatTime(currentTime)}</span>
@@ -278,7 +288,7 @@ export default function AudioPlayer({ tracks = defaultTracks }) {
                     }`}
                     onClick={() => handleTrackSelect(index)}
                   >
-                    {track.title} - {track.artist}
+                    {track.title} - {track.artist} ({track.album})
                   </div>
                 ))}
               </div>

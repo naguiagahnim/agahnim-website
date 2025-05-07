@@ -1,13 +1,18 @@
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import HomeContent from "./HomeContent";
 
 export default function Home() {
 
   const [shouldAnimate, setShouldAnimate] = useState(false)
+  const startupRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => {
     const fromLanding = sessionStorage.getItem("fromLanding");
+
+    if (startupRef.current) {
+      startupRef.current.volume = 0.5;
+    }
 
     if (fromLanding) {
       setShouldAnimate(true)
@@ -23,7 +28,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
           >
-            <audio src="/audio/startup.mp3" autoPlay playsInline/>
+            <audio ref={startupRef} src="/audio/startup.mp3" autoPlay playsInline/>
             <HomeContent/>
           </motion.div>
         ) : (
