@@ -8,7 +8,7 @@ export default function Dev() {
             <div className="relative z-10 flex flex-col items-center px-4 space-y-4 max-w-4xl mx-auto p-6">
                 <div className="bg-white bg-opacity-80 p-4 rounded shadow-md">
                     <p className="text-sm font-dotgothic">
-                        O douce mélodie des jours passés, que ta voix résonne dans mes souvenirs…
+                        I always had an interest in development. 
                     </p>
                 </div>
 

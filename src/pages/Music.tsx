@@ -1,4 +1,5 @@
 import AudioPlayer from "../components/AudioPlayer";
+import { Marquee } from "../components/Marquee";
 import Navbar from "../components/Navbar";
 
 export default function Music() {
@@ -16,6 +17,12 @@ export default function Music() {
             ></video>
 
             <div className="relative z-10 flex flex-col items-center px-4 space-y-4 max-w-4xl mx-auto p-6">
+                <div className="w-[200px]">
+                    <a href="https://share.amuse.io/rEhNMOytyfeg" target="_blank">
+                        <img src="/images/life.webp" width="200" />
+                    </a>
+                    <Marquee className="text-white py-1 mb-4 font-dotgothic">&nbsp;彡★LIFE - Available on all platforms★彡&nbsp;</Marquee>
+                </div>
                 <AudioPlayer />
 
                 <div className="bg-white bg-opacity-80 p-4 rounded shadow-md">
