@@ -12,11 +12,11 @@ export default function Music() {
                 autoPlay
                 muted
                 loop
-                src="/videos/music.mp4"
+                src="/videos/music.webm"
                 preload="auto"
             ></video>
 
-            <div className="rounded bg-radial-[at_center] from-pink-ouga from-40% to-lavender-ouga to-90% relative z-10 flex flex-col items-center px-4 space-y-4 max-w-4xl mx-auto mt-4 p-6">
+            <div className="bg-radial-[at_center] from-pink-ouga from-40% to-lavender-ouga to-90% relative z-10 flex flex-col items-center px-4 space-y-4 max-w-4xl mx-auto mt-4 p-6">
                 <div className="w-[200px]">
                     <a href="https://share.amuse.io/rEhNMOytyfeg" target="_blank">
                         <img src="/images/life.webp" width="200" />
