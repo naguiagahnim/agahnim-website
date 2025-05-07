@@ -16,7 +16,7 @@ export default function Music() {
                 preload="auto"
             ></video>
 
-            <div className="relative z-10 flex flex-col items-center px-4 space-y-4 max-w-4xl mx-auto p-6">
+            <div className="rounded bg-radial from-pink-ouga to-lavender-ouga relative z-10 flex flex-col items-center px-4 space-y-4 max-w-4xl mx-auto mt-4 p-6">
                 <div className="w-[200px]">
                     <a href="https://share.amuse.io/rEhNMOytyfeg" target="_blank">
                         <img src="/images/life.webp" width="200" />
