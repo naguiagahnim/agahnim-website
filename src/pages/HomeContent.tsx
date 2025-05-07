@@ -19,10 +19,21 @@ export default function HomeContent() {
                             <br/><br/>
                             I created this website not just to <span className="text-darkerer-pink-ouga">improve</span> my web development skills, but also because it's <span className="inline-block text-darkerer-pink-ouga animate-bounce">fun</span> to build a project like this. It's a small, personal space on the internet, away from the social climate, which is getting <span className="text-red-700">worse and worse</span>
                         </p>
+                        <div className="flex flex-row space-x-4 mt-3">
+                            <img src="/badges/queer.webp"/>
+                            <img src="/badges/skywardsword.webp" width="100px"/>
+                            <img src="/badges/transrightsnow.webp"/>
+                            <img src="/badges/88x31computer.gif"/>
+                            <img src="/badges/cssisawesome.webp"/>
+                        </div>
+                        <div className="flex flex-row space-x-4 mt-3">
+                            <img src="/badges/kirby.gif" width="30%"/>
+                            <img src="/badges/trans.gif" width="30%"/>
+                            <img src="/badges/pink.gif" width="30%"/>
+                        </div>
                     </div>
 
                     <div className="bg-white bg-opacity-80 p-4 rounded shadow-md flex-[0.3]">
-
                     </div>
                 </div>
             </div>
