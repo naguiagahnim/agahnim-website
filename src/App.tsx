@@ -1,14 +1,16 @@
-import { Routes, Route, useLocation } from "react-router-dom"
-import LandingPage from "./pages/LandingPage"
-import Home from "./pages/Home"
+import { Routes, Route, useLocation } from "react-router-dom";
+import LandingPage from "./pages/LandingPage";
+import Home from "./pages/Home";
 import Music from "./pages/Music";
 import About from "./pages/About";
 import Dev from "./pages/Dev";
+import { AudioProvider } from "./components/AudioContext.tsx";
 
 export default function App() {
   const location = useLocation();
 
   return (
+    <AudioProvider>
       <div className="crt relative z-99 h-screen w-screen flex flex-col overflow-hidden">
         <div className="flex-1 overflow-y-auto">
           <Routes location={location} key={location.pathname}>
@@ -20,5 +22,6 @@ export default function App() {
           </Routes>
         </div>
       </div>
+    </AudioProvider>
   );
 }
