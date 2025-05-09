@@ -4,6 +4,7 @@ export default function Music() {
     return (
         <div className="bg-light-pink-ouga bg-cover bg-center min-h-screen w-screen" >
 
+            <img className="fixed top-0 left-0 w-screen h-screen object-cover z-0" src="/images/music.webp"/>
             <video
                 className="fixed top-0 left-0 w-screen h-screen object-cover z-0"
                 autoPlay
