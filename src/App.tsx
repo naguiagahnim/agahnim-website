@@ -6,15 +6,19 @@ import About from "./pages/About";
 import Dev from "./pages/Dev";
 import { AudioProvider } from "./components/AudioContext.tsx";
 import Navbar from "./components/Navbar.tsx";
+import ScrollToTop from "./components/ScrollToTop.ts";
+import { useRef } from "react";
 
 export default function App() {
   const location = useLocation();
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   return (
     <AudioProvider>
       <div className="crt relative z-99 h-screen w-screen flex flex-col overflow-hidden">
       {location.pathname !== "/" && <Navbar />}
-        <div className="flex-1 overflow-y-auto">
+        <div ref={scrollRef} className="flex-1 overflow-y-auto">
+          <ScrollToTop scrollRef={scrollRef} />
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<LandingPage />} />
             <Route path="/home" element={<Home />} />
