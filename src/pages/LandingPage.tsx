@@ -30,7 +30,7 @@ export default function LandingPage() {
                     transition={{ duration: 1 }}
                 >
                     <div
-                        className="absolute bg-red-500 z-10 hover:cursor-pointer"
+                        className="absolute z-10 hover:cursor-pointer"
                         style={{
                             top: '21%',
                             left: '56%',
