@@ -12,7 +12,8 @@ export default function Music() {
                 <img className="fixed top-0 left-0 w-screen h-screen object-cover z-0" src="/images/music.webp"/>)}
             <video className="fixed top-0 left-0 w-screen h-screen object-cover z-0" autoPlay muted loop src="/videos/music.webm" preload="auto" onLoadedData={() => setVideoLoaded(true)}></video>
 
-            <div className="bg-radial-[at_center] from-pink-ouga from-40% to-lavender-ouga to-90% relative z-10 flex flex-col items-center px-4 space-y-4 max-w-4xl mx-auto mt-4 p-6">
+            <div className="bg-radial-[at_center] from-pink-ouga from-40% to-lavender-ouga to-90% relative z-10 flex flex-col items-center px-4 space-y-4 max-w-4xl mx-auto mt-4 p-6 border-4 border-t-white border-l-white border-r-black border-b-black">
+                <img src="/gifs/music.gif"/>
                 <div className="w-[200px]">
                     <a href="https://share.amuse.io/rEhNMOytyfeg" target="_blank">
                         <img src="/images/life.webp" width="200" />
