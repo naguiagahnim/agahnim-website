@@ -9,7 +9,7 @@ export default function Dev() {
             {!videoLoaded && (
                 <img className="fixed top-0 left-0 w-screen h-screen object-cover z-0" src="/images/dev.webp"/>)}
             <video className="fixed top-0 left-0 w-screen h-screen object-cover z-0" autoPlay muted loop src="/videos/dev.webm" preload="auto" onLoadedData={() => setVideoLoaded(true)}></video>
-            <div className="bg-radial-[at_center] from-pink-ouga from-40% to-lavender-ouga to-90% mt-4 relative z-10 flex flex-col items-center px-4 space-y-4 max-w-4xl mx-auto p-6 border-4 border-t-white border-l-white border-r-black border-b-black">
+            <div className="bg-radial-[at_center] from-pink-ouga from-40% to-lavender-ouga to-90% mt-4 relative z-10 flex flex-col items-center px-4 space-y-4 max-w-4xl mx-auto p-6 border-4 border-t-white border-l-white border-r-[#808080] border-b-[#808080]">
                 <img src="/gifs/projects.gif"/>
                 <div className="bg-white bg-opacity-80 p-4 rounded shadow-md">
                     <p className="text-sm font-dotgothic">
