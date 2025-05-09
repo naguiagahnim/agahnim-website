@@ -31,7 +31,6 @@ export default function Music() {
                         it seems to me that music is a reflection of the soul. My purpose when creating isn’t just to translate my life experiences into melody but also to create a soundscape that reflects my vision of music and my personal tastes.
                         The more I explore it, the more I understand why people often refer to music as a language.
                         And strangely enough, it’s in music that I find the truest sense of myself, as if the sounds are the purest reflection of who I am.
-
                     </p>
                 </div>
             </div>
