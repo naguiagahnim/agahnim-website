@@ -11,8 +11,8 @@ export default function About() {
                     </div>
 
                     <div className="bg-white bg-opacity-80 p-4 rounded shadow-md flex-1">
-                        <p className="text-sm font-dotgothic">
-                            Et quand l’ombre viendra, que la musique demeure, veilleuse éternelle de mes pensées.
+                        <p className="text-lg font-dotgothic text-center bg-[url(/gifs/divider.gif)]">
+                            Agahnim | she/her
                         </p>
                     </div>
                 </div>
