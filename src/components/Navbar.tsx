@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Home, User, Heart, Terminal, Music } from 'lucide-react';
 import '../styles/navbar.css';
@@ -6,10 +6,19 @@ import '../styles/navbar.css';
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
+  const [time, setTime] = useState(new Date());
   
   const isActive = (path: string) => {
     return location.pathname === path;
   };
+  
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTime(new Date());
+    }, 1000);
+  
+    return () => clearInterval(timer);
+  }, []);
   
   return (
     <nav className="navbar">
@@ -80,7 +89,7 @@ export default function Navbar() {
           <div className="status-dot"></div>
           <span>Online</span>
         </div>
-        <span>Welcome to my website !</span>
+        <span>{time.toLocaleTimeString()}</span>
       </div>
     </nav>
   );
