@@ -11,6 +11,7 @@ export default function Music() {
                 loop
                 src="/videos/music.webm"
                 preload="auto"
+                poster="/images/music.webp"
             ></video>
 
             <div className="bg-radial-[at_center] from-pink-ouga from-40% to-lavender-ouga to-90% relative z-10 flex flex-col items-center px-4 space-y-4 max-w-4xl mx-auto mt-4 p-6">
