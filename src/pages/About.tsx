@@ -32,7 +32,7 @@ export default function About() {
                         <p className="mt-4">
                             I'm <span className="text-xl text-darkerer-pink-ouga">Agahnim</span>, a <span className="text-blue-ouga">transgender</span> music producer and developer from <span className="text-darkerer-pink-ouga">France</span>.
                             <br/><br/>
-                            I've been playing the <span className="text-darkerer-pink-ouga">viola da gamba</span> since I was 6. Since, you probably don't know what my instrument is, I dedicated a <span onClick={() => scrollToId("wtfis")} className="text-blue-ouga decoration-current underline">section</span> to it if you have the faith to scroll down this page, because I think it deserves more recognition outside the few people who are very interested in Baroque music. It's thanks to this instrument that I fell in love with <span className="text-darkerer-pink-ouga">baroque music</span> and classical music for that matter.
+                            I've been playing the <span className="text-darkerer-pink-ouga">viola da gamba</span> since I was 6. Since, you probably don't know what my instrument is, I dedicated a <span onClick={() => scrollToId("wtfis")} className="text-blue-ouga decoration-current underline hover:cursor-pointer">section</span> to it if you have the faith to scroll down this page, because I think it deserves more recognition outside the few people who are very interested in Baroque music. It's thanks to this instrument that I fell in love with <span className="text-darkerer-pink-ouga">baroque music</span> and classical music for that matter.
                             <br/><br/>
                             Apart from that, I love reading and playing video games, big surprise coming from a developer I know.
                             <br/><br/>
@@ -51,7 +51,15 @@ export default function About() {
                                 <h1>Video games</h1>
                                 <img src="/gifs/globe.gif" width="20px" />
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt faucibus tincidunt. Morbi molestie nisl dolor. Quisque vel auctor quam. Donec ullamcorper posuere consectetur. Morbi risus felis, accumsan in tristique sit amet, hendrerit eu augue. Pellentesque convallis interdum purus, id interdum tortor porta laoreet. Donec vitae urna orci. Duis auctor non nunc fermentum tristique. </p>
+                            <ul className="list-disc list-inside">
+                                <li>Zelda aka my favorite license (especially Skyward Sword!)</li>
+                                <li>FromSoftware games (DS1, DS2 and ER)</li>
+                                <li>Hotline Miami 1 & 2</li>
+                                <li>Katana ZERO</li>
+                                <li>Pokemon Violet (yep)</li>
+                                <li>Kirby</li>
+                                <li>A compléter</li>
+                            </ul>
                         </div>
                         <div className="flex flex-col items-center bg-light-pink-ouga rounded border-3 border-t-[#a2d2ff] border-l-[#a2d2ff] border-r-[#cdb4db] border-b-[#cdb4db]">
                             <div className="flex items-center justify-center space-x-2 mb-2 bg-[url(/gifs/divider.gif)] px-2">
