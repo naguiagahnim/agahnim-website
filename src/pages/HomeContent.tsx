@@ -92,8 +92,8 @@ export default function HomeContent() {
                             I created this website not just to <span className="text-darkerer-pink-ouga">improve</span> my web development skills, but also because it's <span className="inline-block text-darkerer-pink-ouga animate-bounce">fun</span> to build a project like this. It's a small, personal space on the internet, away from the social climate, which is getting <span className="text-red-700">worse and worse</span>
                             <br/><br/>
                             This website is inspired by the <span className="text-darkerer-pink-ouga">vaporwave aesthetic</span> and the old PCs I used to tinker with when I was a kid.
-                            I’ve always had a soft spot for that nostalgic look — the soft colors, the glitchy textures, the strange mix of melancholy and comfort.
-                            It feels good to bring that vibe into something I built with my own hands.
+                            I always liked this type of aesthetic and the mix of melancholy of comfort it brings me.
+                            It feels good to bring that vibe into one of my projects.
                         </p>
                         <div className="flex flex-row space-x-4 mt-3">
                             <img src="/badges/queer.webp"/>
@@ -137,6 +137,9 @@ export default function HomeContent() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="fixed bottom-0 left-0 w-[200px]">
+                <img src="/images/boubouille.webp" width="200px"/>
             </div>
         </div>
     )
