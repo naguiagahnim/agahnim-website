@@ -53,12 +53,18 @@ export default function About() {
                             </div>
                             <ul className="list-disc list-inside">
                                 <li>Zelda aka my favorite license (especially Skyward Sword!)</li>
-                                <li>FromSoftware games (DS1, DS2 and ER)</li>
+                                <li>FromSoftware games (especially DS1, DS2 and ER)</li>
+                                <li>Death Stranding</li>
+                                <li>All Metal Gear games (especially MGS5 and Ground Zeroes and excluding Rising)</li>
                                 <li>Hotline Miami 1 & 2</li>
                                 <li>Katana ZERO</li>
                                 <li>Pokemon Violet (yep)</li>
                                 <li>Kirby</li>
-                                <li>A compléter</li>
+                                <li>Dead Cells</li>
+                                <li>Alien : Isolation</li>
+                                <li>Tekken 8</li>
+                                <li>Blasphemous</li>
+                                <li>Warframe</li>
                             </ul>
                         </div>
                         <div className="flex flex-col items-center bg-light-pink-ouga rounded border-3 border-t-[#a2d2ff] border-l-[#a2d2ff] border-r-[#cdb4db] border-b-[#cdb4db]">
