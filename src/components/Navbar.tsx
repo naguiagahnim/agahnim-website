@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Home, User, Heart, Terminal, Music, NotebookPen } from 'lucide-react';
+import { Home, User, Heart, Terminal, Music } from 'lucide-react';
 import '../styles/navbar.css';
 
 export default function Navbar() {
