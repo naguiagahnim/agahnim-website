@@ -19,16 +19,18 @@ export default function About() {
             <video className="fixed top-0 left-0 w-screen h-screen object-cover z-0" autoPlay muted playsInline loop src="/videos/about.webm" preload="auto" onLoadedData={() => setVideoLoaded(true)}></video>
 
             <div className="bg-radial-[at_center] from-pink-ouga from-40% to-lavender-ouga to-90% relative z-10 flex flex-col items-center px-12 space-y-4 max-w-4xl mx-auto p-6 mt-4">
-                <img src="/images/cornertl.webp" className="absolute top-0 left-0 w-[80px] h-[80px] z-20" alt="Corner top left" />
-                <img src="/images/cornertr.webp" className="absolute top-0 right-0 w-[80px] h-[80px] z-20" alt="Corner top right" />
-                <img src="/images/cornerbl.webp" className="absolute bottom-0 left-0 w-[64px] h-[64px] z-20" alt="Corner bottom left" />
-                <img src="/images/cornerbr.webp" className="absolute bottom-0 right-0 w-[64px] h-[64px] z-20" alt="Corner bottom right" />
 
                 <div className="flex space-x-4">
                     <div className="bg-white bg-opacity-80 p-4 rounded shadow-md flex-1 text-center font-dotgothic">
                         <p className="text-sm">
                             <img src="/gifs/aboutme.gif" className="mb-2"></img>
-                            <img src="/images/pfp.webp"></img>
+                            <img src="/gifs/divider.gif"/>
+                            <img src="/images/pfp.webp" className="my-4"></img>
+                            <img src="/gifs/divider.gif" className="mb-4"/>
+                            <div className="flex flex-row space-x-15">
+                                <img src="/gifs/tekken.gif" width="150px" className="border-3 border-t-[#a2d2ff] border-l-[#a2d2ff] border-r-[#cdb4db] border-b-[#cdb4db]"/>
+                                <img src="/gifs/abstract.gif" width="150px" className="border-3 border-t-[#a2d2ff] border-l-[#a2d2ff] border-r-[#cdb4db] border-b-[#cdb4db]"/>
+                            </div>
                         </p>
                     </div>
 
@@ -38,6 +40,8 @@ export default function About() {
                             I'm <span className="text-xl text-darkerer-pink-ouga">Agahnim</span>, a <span className="text-blue-ouga">transgender</span> music producer and developer from <span className="text-darkerer-pink-ouga">France</span>.
                             <br/><br/>
                             I've been playing the <span className="text-darkerer-pink-ouga">viola da gamba</span> since I was 6. Since, you probably don't know what my instrument is, I dedicated a <span onClick={() => scrollToId("wtfis")} className="text-blue-ouga decoration-current underline hover:cursor-pointer">section</span> to it further down this page, because I think it deserves more recognition outside the few people who are very interested in Baroque music. It's thanks to this instrument that I fell in love with <span className="text-darkerer-pink-ouga">baroque music</span> and classical music for that matter.
+                            <br/><br/>
+                            I've been interested in development and computing in general since I was very young. It all started with the desire to make video games myself! I remember playing Xenoblade Chronicles X at the time. I started taking a few courses in Construct 2 and Unity, and haven't stopped programming since. Now, I'd consider myself a global amateur! I've got an acceptable level that lets me get by, because I'm pretty much a jack-of-all-trades, but I've still got a lot to learn!
                             <br/><br/>
                             Apart from that, I love reading and playing video games, big surprise coming from a developer I know.
                             <br/><br/>

@@ -63,16 +63,6 @@ export default function Navbar() {
           </li>
           <li className="nav-item">
             <Link 
-              to="/blog" 
-              className={`navbar-link ${isActive('/blog') ? 'active' : ''}`}
-              onClick={() => setIsOpen(false)}
-            >
-              <NotebookPen size={14} />
-              <span>Blog</span>
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link 
               to="/dev" 
               className={`navbar-link ${isActive('/dev') ? 'active' : ''}`}
               onClick={() => setIsOpen(false)}
