@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Home, User, Heart, Terminal, Music } from 'lucide-react';
+import { Home, User, Heart, Terminal, Music, NotebookPen } from 'lucide-react';
 import '../styles/navbar.css';
 
 export default function Navbar() {
@@ -59,6 +59,16 @@ export default function Navbar() {
             >
               <User size={14} />
               <span>About Me</span>
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link 
+              to="/blog" 
+              className={`navbar-link ${isActive('/blog') ? 'active' : ''}`}
+              onClick={() => setIsOpen(false)}
+            >
+              <NotebookPen size={14} />
+              <span>Blog</span>
             </Link>
           </li>
           <li className="nav-item">
