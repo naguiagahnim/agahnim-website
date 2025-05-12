@@ -19,6 +19,11 @@ export default function About() {
             <video className="fixed top-0 left-0 w-screen h-screen object-cover z-0" autoPlay muted loop src="/videos/about.webm" preload="auto" onLoadedData={() => setVideoLoaded(true)}></video>
 
             <div className="bg-radial-[at_center] from-pink-ouga from-40% to-lavender-ouga to-90% relative z-10 flex flex-col items-center px-12 space-y-4 max-w-4xl mx-auto p-6 mt-4">
+                <img src="/images/cornertl.webp" className="absolute top-0 left-0 w-[80px] h-[80px] z-20" alt="Corner top left" />
+                <img src="/images/cornertr.webp" className="absolute top-0 right-0 w-[80px] h-[80px] z-20" alt="Corner top right" />
+                <img src="/images/cornerbl.webp" className="absolute bottom-0 left-0 w-[64px] h-[64px] z-20" alt="Corner bottom left" />
+                <img src="/images/cornerbr.webp" className="absolute bottom-0 right-0 w-[64px] h-[64px] z-20" alt="Corner bottom right" />
+
                 <div className="flex space-x-4">
                     <div className="bg-white bg-opacity-80 p-4 rounded shadow-md flex-1 text-center font-dotgothic">
                         <p className="text-sm">
@@ -127,7 +132,12 @@ export default function About() {
 
                         <div className="text-sm text-justify p-3 flex-1">
                         The viola da gamba, or simply gamba, is a bowed string instrument that was popular in the Renaissance and Baroque periods, mainly from the 15th to the 18th centuries. Its name means “viol of the leg” in Italian, because it’s played between the legs, much like a modern cello (but without the end pin).
+                        It is often played either alone or with other instruments such as the harpsichord or the renaissance recorder, instruments with which you may be more familiar.
+                        If you've ever listened to some of Bach's music, chances are you've heard viola da gamba without knowing it.
                         <br/><br/>
+                        The viola da gamba was said to be the closest instrument to the human voice. Its rich sound, which I personally find magnificent, is what immediately attracted me when I heard one of my classmates play it for the first time.
+                        <br/><br/>
+                        If you would like to learn more about this instrument, I encourage you to do so! For example, you can familiarize yourself with certain composers, such as the aforementioned Bach, Marin Marais, Jean de Sainte-Colombe or Karl Friedrich Abel! A well-known film representing the music of the period, and particularly that for the viola da gamba, is All The Mornings of The World, which you may already have seen (also keep in mind that the actor who plays Marin Marais when he's an adult is a disgusting bastard).
                         </div>
 
                     </div>
