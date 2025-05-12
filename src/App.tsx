@@ -17,7 +17,7 @@ export default function App() {
     <AudioProvider>
       <div className="crt relative z-99 h-screen w-screen flex flex-col overflow-hidden">
       {location.pathname !== "/" && <Navbar />}
-        <div ref={scrollRef} className="flex-1 overflow-y-auto">
+        <div id="mainDiv" ref={scrollRef} className="flex-1 overflow-y-auto overflow-x-hidden">
           <ScrollToTop scrollRef={scrollRef} />
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<LandingPage />} />

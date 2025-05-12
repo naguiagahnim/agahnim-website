@@ -141,6 +141,9 @@ export default function HomeContent() {
             <div className="fixed bottom-0 left-0 w-[200px]">
                 <img src="/images/boubouille.webp" width="200px"/>
             </div>
+            <div className="fixed bottom-0 right-1 w-[200px]">
+                <img src="/images/rapla.webp" width="200px"/>
+            </div>
         </div>
     )
 }
