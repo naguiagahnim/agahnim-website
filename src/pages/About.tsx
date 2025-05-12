@@ -135,7 +135,7 @@ export default function About() {
                         
                         <div className="flex-shrink-0 mb-4 md:mb-0">
                         <img src="/images/savall.webp" alt="Jordi Savall and his Viola da Gamba" className="w-[300px] rounded-md shadow-lg" />
-                        <p className="italic text-sm text-center mt-2 max-w-[300px]">The Viola da Gamba, played by Catalan violinist, choral conductor and orchestra leader Jordi Savall.</p>
+                        <p className="italic text-sm text-center mt-2 max-w-[300px]">The Viola da Gamba, played by Catalan gambist, choral conductor and orchestra leader Jordi Savall.</p>
                         </div>
 
                         <div className="text-sm text-justify p-3 flex-1">
