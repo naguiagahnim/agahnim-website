@@ -74,8 +74,7 @@ export default function About() {
                                 <li>Alien : Isolation</li>
                                 <li>Tekken 8</li>
                                 <li>Blasphemous</li>
-                                <li>Warframe</li>
-                                <li className="list-none">etc...</li>
+                                <li>Warframe...</li>
                             </ul>
                         </div>
 
@@ -90,8 +89,7 @@ export default function About() {
                                 <li>Albert Camus</li>
                                 <li>Terry Pratchett</li>
                                 <li>François Villon</li>
-                                <li>Fyodor Dostoevsky</li>
-                                <li className="list-none">etc...</li>
+                                <li>Fyodor Dostoevsky...</li>
                             </ul>
                         </div>
 
@@ -102,8 +100,14 @@ export default function About() {
                                 <img src="/gifs/globe.gif" width="20px" />
                             </div>
                             <ul className="list-disc list-inside">
-                                <li>Carpenter Brut</li>
-                                <li className="list-none">etc...</li>
+                                <li>Carpenter Brut (my favorite artist)</li>
+                                <li>Vaporwave / Synthwave</li>
+                                <li>Barber beats</li>
+                                <li>French touch</li>
+                                <li>Baroque</li>
+                                <li>Classical</li>
+                                <li>Heavy Metal</li>
+                                <li>Jazz...</li>
                             </ul>
                         </div>
                     </div>
