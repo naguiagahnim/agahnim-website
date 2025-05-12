@@ -74,6 +74,7 @@ export default function HomeContent() {
     }, []);
 
     return (
+        <>
         <div className="bg-radial-[at_center] from-pink-ouga from-40% to-lavender-ouga to-90% bg-cover bg-center h-screen w-screen overflow-hidden">
             <div className="relative z-10 flex flex-col items-center px-4 space-y-4 max-w-4xl mx-auto p-6 mt-4">
                 <div className="w-[400px]">
@@ -145,5 +146,6 @@ export default function HomeContent() {
                 <img src="/images/rapla.webp" width="200px"/>
             </div>
         </div>
+    </>
     )
 }

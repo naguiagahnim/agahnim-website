@@ -8,6 +8,7 @@ import { AudioProvider } from "./components/AudioContext.tsx";
 import Navbar from "./components/Navbar.tsx";
 import ScrollToTop from "./components/ScrollToTop.ts";
 import { useRef } from "react";
+import MiniPlayer from "./components/MiniPlayer.tsx";
 
 export default function App() {
   const location = useLocation();
@@ -15,10 +16,15 @@ export default function App() {
 
   return (
     <AudioProvider>
-      <div className="crt relative z-99 h-screen w-screen flex flex-col overflow-hidden">
+      <div className="crt relative z-99 h-screen w-screen flex flex-col">
       {location.pathname !== "/" && <Navbar />}
         <div id="mainDiv" ref={scrollRef} className="flex-1 overflow-y-auto overflow-x-hidden">
           <ScrollToTop scrollRef={scrollRef} />
+          {location.pathname !== "/" && location.pathname !== "/music" && (
+            <div className="fixed top-18 left-0 z-999">
+              <MiniPlayer />
+            </div>
+          )}
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<LandingPage />} />
             <Route path="/home" element={<Home />} />

@@ -66,6 +66,7 @@ export default function About() {
                                 <li>Tekken 8</li>
                                 <li>Blasphemous</li>
                                 <li>Warframe</li>
+                                <li className="list-none">etc...</li>
                             </ul>
                         </div>
 
@@ -75,31 +76,64 @@ export default function About() {
                                 <h1>Literature</h1>
                                 <img src="/gifs/globe.gif" width="20px" />
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt faucibus tincidunt. Morbi molestie nisl dolor. Quisque vel auctor quam. Donec ullamcorper posuere consectetur. Morbi risus felis, accumsan in tristique sit amet, hendrerit eu augue. Pellentesque convallis interdum purus, id interdum tortor porta laoreet. Donec vitae urna orci. Duis auctor non nunc fermentum tristique. </p>
+                            <ul className="list-inside list-disc">
+                                <li>Boris Vian (my favourite author)</li>
+                                <li>Albert Camus</li>
+                                <li>Terry Pratchett</li>
+                                <li>François Villon</li>
+                                <li>Fyodor Dostoevsky</li>
+                                <li className="list-none">etc...</li>
+                            </ul>
                         </div>
 
                         <div className="flex flex-col items-center bg-light-pink-ouga rounded border-3 border-t-[#a2d2ff] border-l-[#a2d2ff] border-r-[#cdb4db] border-b-[#cdb4db]">
                             <div className="flex items-center justify-center space-x-2 mb-2 bg-[url(/gifs/divider.gif)] px-2">
                                 <img src="/gifs/globe.gif" width="20px" />
+                                <h1>Music</h1>
+                                <img src="/gifs/globe.gif" width="20px" />
+                            </div>
+                            <ul className="list-disc list-inside">
+                                <li>Carpenter Brut</li>
+                                <li className="list-none">etc...</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="mt-4 flex flex-col text-center items-center bg-light-pink-ouga rounded border-3 border-t-[#a2d2ff] border-l-[#a2d2ff] border-r-[#cdb4db] border-b-[#cdb4db]">
+                            <div className="flex items-center justify-center space-x-2 mb-2 bg-[url(/gifs/divider.gif)] px-2">
+                                <img src="/gifs/globe.gif" width="20px" />
                                 <h1>Other</h1>
                                 <img src="/gifs/globe.gif" width="20px" />
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt faucibus tincidunt. Morbi molestie nisl dolor. Quisque vel auctor quam. Donec ullamcorper posuere consectetur. Morbi risus felis, accumsan in tristique sit amet, hendrerit eu augue. Pellentesque convallis interdum purus, id interdum tortor porta laoreet. Donec vitae urna orci. Duis auctor non nunc fermentum tristique. </p>
+                            <ul className="list-disc list-inside">
+                                <li><a className="underline" href="https://www.fragrantica.fr/members/60572" target="_blank">Perfumery</a></li>
+                                <li><a className="underline" href="https://github.com/naguiagahnim" target="_blank">Computer science (obviously)</a></li>
+                                <li>Bodybuilding and calisthenics (hate the community, love the sport)</li>
+                            </ul>
+                        </div>
+                </div>
+
+                <div id="wtfis" className="bg-white bg-opacity-80 p-6 rounded-xl shadow-md font-dotgothic space-y-6">
+  
+                    <div className="text-center">
+                        <img src="/gifs/wtfis.gif" className="mx-auto rounded-lg shadow-inner" />
+                    </div>
+
+                    <div className="flex flex-col md:flex-row md:space-x-6 items-start">
+                        
+                        <div className="flex-shrink-0 mb-4 md:mb-0">
+                        <img src="/images/savall.webp" alt="Jordi Savall and his Viola da Gamba" className="w-[300px] rounded-md shadow-lg" />
+                        <p className="italic text-sm text-center mt-2 max-w-[300px]">The Viola da Gamba, played by Catalan violinist, choral conductor and orchestra leader Jordi Savall.</p>
+                        </div>
+
+                        <div className="text-sm text-justify p-3 flex-1">
+                        The viola da gamba, or simply gamba, is a bowed string instrument that was popular in the Renaissance and Baroque periods, mainly from the 15th to the 18th centuries. Its name means “viol of the leg” in Italian, because it’s played between the legs, much like a modern cello (but without the end pin).
+                        <br/><br/>
                         </div>
 
                     </div>
                 </div>
-                <div id="wtfis" className="bg-white bg-opacity-80 p-4 rounded shadow-md font-dotgothic">
-                    <img src="/gifs/wtfis.gif" className="mx-auto"/>
-                    <div className="grid grid-cols-2 text-center mt-4 gap-10">
-                        <div className="flex flex-col items-center bg-light-pink-ouga rounded border-3 border-t-[#a2d2ff] border-l-[#a2d2ff] border-r-[#cdb4db] border-b-[#cdb4db]">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt faucibus tincidunt. Morbi molestie nisl dolor. Quisque vel auctor quam. Donec ullamcorper posuere consectetur. Morbi risus felis, accumsan in tristique sit amet, hendrerit eu augue. Pellentesque convallis interdum purus, id interdum tortor porta laoreet. Donec vitae urna orci. Duis auctor non nunc fermentum tristique. </p>
-                        </div>
-                        <div className="flex flex-col items-center bg-light-pink-ouga rounded border-3 border-t-[#a2d2ff] border-l-[#a2d2ff] border-r-[#cdb4db] border-b-[#cdb4db]">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt faucibus tincidunt. Morbi molestie nisl dolor. Quisque vel auctor quam. Donec ullamcorper posuere consectetur. Morbi risus felis, accumsan in tristique sit amet, hendrerit eu augue. Pellentesque convallis interdum purus, id interdum tortor porta laoreet. Donec vitae urna orci. Duis auctor non nunc fermentum tristique. </p>
-                        </div>
-                    </div>
-                </div>
+
+
             </div>
             <div className="hover:animate-bounce fixed bottom-0 right-0 z-50 w-[250px]">
                 <a href="https://www.youtube.com/watch?v=jIQ6UV2onyI" target="_blank"><img src="/images/bibu2.webp" width="250px"/></a>
