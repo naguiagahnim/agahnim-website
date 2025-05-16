@@ -74,6 +74,7 @@ export default function About() {
                                 <li>Alien : Isolation</li>
                                 <li>Tekken 8</li>
                                 <li>Blasphemous</li>
+                                <li>Dishonored</li>
                                 <li>Warframe...</li>
                             </ul>
                         </div>
