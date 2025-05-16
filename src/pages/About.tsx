@@ -101,9 +101,10 @@ export default function About() {
                             </div>
                             <ul className="list-disc list-inside">
                                 <li>Carpenter Brut (my favorite artist)</li>
+                                <li>Gao the Arsonist</li>
                                 <li>Vaporwave / Synthwave</li>
                                 <li>Barber beats</li>
-                                <li>French touch</li>
+                                <li>Electro / French touch</li>
                                 <li>Baroque</li>
                                 <li>Classical</li>
                                 <li>Heavy Metal</li>
