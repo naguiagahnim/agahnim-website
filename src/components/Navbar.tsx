@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Home, User, Heart, Terminal, Music } from 'lucide-react';
+import { Home, User, Heart, Terminal, Music, FlameKindling } from 'lucide-react';
 import '../styles/navbar.css';
 
 export default function Navbar() {
@@ -72,6 +72,15 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
+            <Link 
+              to="/shrines" 
+              className={`navbar-link ${isActive('/shrines') ? 'active' : ''}`}
+              onClick={() => setIsOpen(false)}
+            >
+              <FlameKindling size={14} />
+              <span>Shrines</span>
+            </Link>
+          </li>          <li className="nav-item">
             <Link 
               to="/music" 
               className={`navbar-link ${isActive('/music') ? 'active' : ''}`}

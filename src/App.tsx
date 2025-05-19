@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar.tsx";
 import ScrollToTop from "./components/ScrollToTop.ts";
 import { useRef } from "react";
 import MiniPlayer from "./components/MiniPlayer.tsx";
+import Shrines from "./pages/Shrines.tsx"
 
 export default function App() {
   const location = useLocation();
@@ -20,7 +21,7 @@ export default function App() {
       {location.pathname !== "/" && <Navbar />}
         <div id="mainDiv" ref={scrollRef} className="flex-1 overflow-y-auto overflow-x-hidden">
           <ScrollToTop scrollRef={scrollRef} />
-          {location.pathname !== "/" && location.pathname !== "/music" && (
+          {location.pathname !== "/" && location.pathname !== "/music" && location.pathname !== "/shrines" && (
             <div className="fixed top-18 left-0 z-999">
               <MiniPlayer />
             </div>
@@ -31,6 +32,7 @@ export default function App() {
             <Route path="/about" element={<About />} />
             <Route path="/dev" element={<Dev />} />
             <Route path="/music" element={<Music />} />
+            <Route path="/shrines" element={<Shrines />} />
           </Routes>
         </div>
       </div>
