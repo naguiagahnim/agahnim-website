@@ -9,7 +9,6 @@ import Navbar from "./components/Navbar.tsx";
 import ScrollToTop from "./components/ScrollToTop.ts";
 import { useRef } from "react";
 import MiniPlayer from "./components/MiniPlayer.tsx";
-import Shrines from "./pages/Shrines.tsx"
 
 export default function App() {
   const location = useLocation();
