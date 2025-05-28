@@ -24,9 +24,9 @@ export default function About() {
                     <div className="bg-white bg-opacity-80 p-4 rounded shadow-md flex-1 text-center font-dotgothic">
                         <p className="text-sm">
                             <img src="/gifs/aboutme.gif" className="mb-2"></img>
-                            <img src="/gifs/divider.gif"/>
+                            <img src="/gifs/divider2.gif" width="100%"/>
                             <img src="/images/pfp.webp" className="my-4"></img>
-                            <img src="/gifs/divider.gif" className="mb-4"/>
+                            <img src="/gifs/divider2.gif" width="100%" className="mb-4"/>
                             <div className="flex flex-row space-x-15">
                                 <img src="/gifs/tekken.gif" width="150px" className="border-3 border-t-[#a2d2ff] border-l-[#a2d2ff] border-r-[#cdb4db] border-b-[#cdb4db]"/>
                                 <img src="/gifs/abstract.gif" width="150px" className="border-3 border-t-[#a2d2ff] border-l-[#a2d2ff] border-r-[#cdb4db] border-b-[#cdb4db]"/>

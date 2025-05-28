@@ -117,7 +117,7 @@ export default function HomeContent() {
                             <a href="https://open.spotify.com/intl-fr/artist/4BPUhsH6krKkCNFrdMZnZF?si=E3luyIf0S_yfJRmm82S5OA" target="_blank"><img src="/icons/spotify.webp" width="30px" className="hover:animate-bounce"/></a>
                             <a href="https://www.instagram.com/agahnim_music/" target="_blank"><img src="/icons/insta.webp" width="30px" className="hover:animate-bounce"/></a>
                         </div>
-                        <img src="/gifs/divider.gif" className="mt-4"/>
+                        <img src="/gifs/divider2.gif" width="100%" className="mt-4"/>
                         <div className="flex flex-col items-center mt-4">
                             <h1 className="text-darkerer-pink-ouga mb-2">Consult the oracle of the Bibou</h1>
                             <div className="w-[100px]">

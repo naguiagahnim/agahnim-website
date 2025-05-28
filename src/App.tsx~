@@ -32,7 +32,7 @@ export default function App() {
             <Route path="/about" element={<About />} />
             <Route path="/dev" element={<Dev />} />
             <Route path="/music" element={<Music />} />
-            {/*<Route path="/shrines" element={<Shrines />} />*/}
+            <Route path="/shrines" element={<Shrines />} />
           </Routes>
         </div>
       </div>

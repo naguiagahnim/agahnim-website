@@ -71,7 +71,7 @@ export default function Navbar() {
               <span>Projects</span>
             </Link>
           </li>
-          <li className="nav-item">
+          {/*<li className="nav-item">
             <Link 
               to="/shrines" 
               className={`navbar-link ${isActive('/shrines') ? 'active' : ''}`}
@@ -80,7 +80,8 @@ export default function Navbar() {
               <FlameKindling size={14} />
               <span>Shrines</span>
             </Link>
-          </li>          <li className="nav-item">
+          </li>*/}          
+          <li className="nav-item">
             <Link 
               to="/music" 
               className={`navbar-link ${isActive('/music') ? 'active' : ''}`}
