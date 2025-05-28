@@ -200,7 +200,7 @@ export default function AudioPlayer({ tracks = defaultTracks }) {
           <div className="flex gap-0.5">
             <button
               onClick={toggleMinimize}
-              className="flex h-3.5 w-4 items-center justify-center border border-t-white border-l-white border-b-gray-500 border-r-gray-500 bg-[#c0c0c0] p-0"
+              className="flex h-3.5 w-4 items-center justify-center border border-t-white border-l-white border-b-gray-500 border-r-gray-500 bg-[#c0c0c0] p-0 hover:bg-stone-400"
             >
               <Minimize size={10} className="text-black" />
             </button>
