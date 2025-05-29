@@ -56,10 +56,8 @@ export default function About() {
                     <div className="grid grid-cols-3 text-center mt-4 gap-10">
 
                         <div className="flex flex-col items-center bg-light-pink-ouga rounded border-3 border-t-[#a2d2ff] border-l-[#a2d2ff] border-r-[#cdb4db] border-b-[#cdb4db]">
-                            <div className="flex items-center justify-center space-x-2 mb-2 bg-[url(/gifs/divider.gif)] px-2">
-                                <img src="/gifs/globe.gif" width="20px" />
-                                <h1>Video games</h1>
-                                <img src="/gifs/globe.gif" width="20px" />
+                            <div className="flex items-center justify-center space-x-2 mb-2 px-2">
+                              <img src="/gifs/vgabout.gif"/>
                             </div>
                             <ul className="list-disc list-inside">
                                 <li>Zelda aka my favorite license (especially Skyward Sword!)</li>
@@ -80,10 +78,8 @@ export default function About() {
                         </div>
 
                         <div className="flex flex-col items-center bg-light-pink-ouga rounded border-3 border-t-[#a2d2ff] border-l-[#a2d2ff] border-r-[#cdb4db] border-b-[#cdb4db]">
-                            <div className="flex items-center justify-center space-x-2 mb-2 bg-[url(/gifs/divider.gif)] px-2">
-                                <img src="/gifs/globe.gif" width="20px" />
-                                <h1>Literature</h1>
-                                <img src="/gifs/globe.gif" width="20px" />
+                            <div className="flex items-center justify-center space-x-2 mb-2 px-2">
+                                <img src="/gifs/literatureabout.gif"/>
                             </div>
                             <ul className="list-inside list-disc">
                                 <li>Boris Vian (my favourite author)</li>
@@ -95,10 +91,8 @@ export default function About() {
                         </div>
 
                         <div className="flex flex-col items-center bg-light-pink-ouga rounded border-3 border-t-[#a2d2ff] border-l-[#a2d2ff] border-r-[#cdb4db] border-b-[#cdb4db]">
-                            <div className="flex items-center justify-center space-x-2 mb-2 bg-[url(/gifs/divider.gif)] px-2">
-                                <img src="/gifs/globe.gif" width="20px" />
-                                <h1>Music</h1>
-                                <img src="/gifs/globe.gif" width="20px" />
+                            <div className="flex items-center justify-center space-x-2 mb-2 px-2">
+                                <img src="/gifs/musicabout.gif"/>
                             </div>
                             <ul className="list-disc list-inside">
                                 <li>Carpenter Brut (my favorite artist)</li>
@@ -114,10 +108,8 @@ export default function About() {
                         </div>
                     </div>
                     <div className="mt-4 flex flex-col text-center items-center bg-light-pink-ouga rounded border-3 border-t-[#a2d2ff] border-l-[#a2d2ff] border-r-[#cdb4db] border-b-[#cdb4db]">
-                            <div className="flex items-center justify-center space-x-2 mb-2 bg-[url(/gifs/divider.gif)] px-2">
-                                <img src="/gifs/globe.gif" width="20px" />
-                                <h1>Other</h1>
-                                <img src="/gifs/globe.gif" width="20px" />
+                            <div className="flex items-center justify-center space-x-2 mb-2 px-2">
+                                <img src="/gifs/otherabout.gif" width="50%"/>
                             </div>
                             <ul className="list-disc list-inside">
                                 <li><a className="underline" href="https://www.fragrantica.fr/members/60572" target="_blank">Perfumery</a></li>
