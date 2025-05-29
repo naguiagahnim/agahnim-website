@@ -31,7 +31,7 @@ The site is live and accessible at: [https://agahnim.vercel.app/](https://agahni
 Stevia Sphere, Monodrone, Infinity Frequencies and me !
 
 ### Art
-[mgorce4](https://github.com/mgorce4) for the Chibi and the drawings of Bibi (the cat on the about me page)<br/>
+[mgorce4](https://github.com/mgorce4) for the Chibi, the background and the drawings of Bibi (the cat on the about me page)<br/>
 Festival 1001 Notes for the photo of Jordi Savall<br/>
 Unkown artist for the artwork of Power and for the pixel art of Clodsire<br/>
 [Blinkies cafe](https://blinkies.cafe/) for the blinkies<br/>
