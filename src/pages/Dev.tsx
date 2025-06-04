@@ -44,7 +44,7 @@ export default function Dev() {
         preload="auto"
         onLoadedData={() => setVideoLoaded(true)}
       ></video>
-        <div className="bg-[url(/images/tiledbgpink.webp)] mt-4 relative z-10 flex flex-col items-center px-12 space-y-4 max-w-4xl mx-auto p-6">
+        <div className="bg-[url(/images/tiledbgpink.webp)] mt-4 relative z-10 flex flex-col items-center px-12 space-y-4 max-w-4xl mx-auto p-6 border-5 border-darker-pink-ouga">
 
             <div className="text-center">
             <img src="/gifs/projects.gif" alt="Projects" className="mx-auto" />
