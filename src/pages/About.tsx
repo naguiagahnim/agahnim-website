@@ -47,7 +47,7 @@ export default function About() {
                             <br/><br/>
                             Also, I love <span className="text-pink-ouga">pink</span>, as you may have already noticed.
                             <br/><br/> 
-                            Lately, I’ve been getting back into <span className="text-blue-ouga">culture</span>, <span className="text-darkerer-pink-ouga">philosophy</span>, and everything that makes you think and feel deeply. I’ve even started using <a href="https://www.senscritique.com/Agahnim" target="_blank" rel="noopener noreferrer" className="text-blue-ouga underline">SensCritique</a> again to share what I enjoy.                            
+                            Lately, I’ve been getting back into <span className="text-blue-ouga">culture</span>, <span className="text-darkerer-pink-ouga">philosophy</span>. I’ve even started using <a href="https://www.senscritique.com/Agahnim" target="_blank" rel="noopener noreferrer" className="text-blue-ouga underline">SensCritique</a> again to share what I enjoy.                            
                             <br/><br/> 
                             I’ve also been thinking about rebranding my whole social media presence, but I have no idea of what to choose to be honest.
                         </p>
