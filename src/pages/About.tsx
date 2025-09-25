@@ -25,7 +25,7 @@ export default function About() {
                         <p className="text-sm">
                             <img src="/gifs/aboutme.gif" className="mb-2"></img>
                             <img src="/gifs/divider2.gif" width="100%"/>
-                            <img src="/images/pfp.webp" className="my-4"></img>
+                            <img src="/images/pfp.webp" className="my-4 border-3 border-t-[#a2d2ff] border-l-[#a2d2ff] border-r-[#cdb4db] border-b-[#cdb4db]"></img>
                             <img src="/gifs/divider2.gif" width="100%" className="mb-4"/>
                             <div className="flex flex-row space-x-15">
                                 <img src="/gifs/tekken.gif" width="150px" className="border-3 border-t-[#a2d2ff] border-l-[#a2d2ff] border-r-[#cdb4db] border-b-[#cdb4db]"/>
@@ -47,7 +47,8 @@ export default function About() {
                             <br/><br/>
                             Also, I love <span className="text-pink-ouga">pink</span>, as you may have already noticed.
                             <br/><br/> 
-                            Lately, I’ve been getting back into <span className="text-blue-ouga">culture</span>, <span className="text-darkerer-pink-ouga">philosophy</span>. I’ve even started using <a href="https://www.senscritique.com/Agahnim" target="_blank" rel="noopener noreferrer" className="text-blue-ouga underline">SensCritique</a> again to share what I enjoy, or not.                            
+                            Lately, I’ve been getting back into <span className="text-blue-ouga">culture</span> and <span className="text-darkerer-pink-ouga">philosophy</span>. I’ve even started using <a href="https://www.senscritique.com/Agahnim" target="_blank" rel="noopener noreferrer" className="text-blue-ouga underline">SensCritique</a> again to share what I enjoy, or not.
+                            It did me good to get out of the apathy brought on by my studies, especially since I'm not at all a fan of natural sciences or formal sciences! I was able to immerse myself in literature again thanks to “The Death of Ivan Ilyich,” and from there, everything fell into place!                           
                             <br/><br/> 
                             I’ve also been thinking about rebranding my whole social media presence, but I have no idea of what to choose to be honest.
                         </p>
@@ -114,6 +115,7 @@ export default function About() {
                                 <img src="/gifs/otherabout.gif" width="50%"/>
                             </div>
                             <ul className="list-disc list-inside">
+                                <li><a className="underline" href="https://www.senscritique.com/Agahnim" target="_blank">Art and philosophy!</a></li>
                                 <li><a className="underline" href="https://www.fragrantica.fr/members/60572" target="_blank">Perfumery</a></li>
                                 <li><a className="underline" href="https://github.com/naguiagahnim" target="_blank">Computer science (obviously)</a></li>
                                 <li>Bodybuilding and calisthenics (hate the community, love the sport)</li>
@@ -130,7 +132,7 @@ export default function About() {
                     <div className="flex flex-col md:flex-row md:space-x-6 items-start">
                         
                         <div className="flex-shrink-0 mb-4 md:mb-0">
-                        <img src="/images/savall.webp" alt="Jordi Savall and his Viola da Gamba" className="w-[300px] rounded-md shadow-lg" />
+                        <img src="/images/savall.webp" alt="Jordi Savall and his Viola da Gamba" className="w-[300px] border-3 border-t-[#a2d2ff] border-l-[#a2d2ff] border-r-[#cdb4db] border-b-[#cdb4db] rounded-md shadow-lg" />
                         <p className="italic text-sm text-center mt-2 max-w-[300px]">The Viola da Gamba, played by Catalan gambist, choral conductor and orchestra leader Jordi Savall.</p>
                         </div>
 
