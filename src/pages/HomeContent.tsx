@@ -75,7 +75,7 @@ export default function HomeContent() {
 
     return (
         <>
-        <div className="bg-[url(/images/tiledbgpink.webp)] bg-cover bg-center h-screen w-screen overflow-hidden">
+        <div className="bg-[url(/images/tiledbgpink.webp)] bg-cover bg-center h-screen w-screen overflow-auto">
             <div className="relative z-10 flex flex-col items-center px-4 space-y-4 max-w-4xl mx-auto p-6 mt-4">
                 <div className="w-[400px]">
                     <img src="/images/welcome.webp" width="400px"/>
@@ -87,7 +87,7 @@ export default function HomeContent() {
                             Thank you for visiting my website !
                             For now it's still a <span className="text-darkerer-pink-ouga">work in progress</span> but I'm sure you will see changes if you come back from time to time :)
                             <br/><br/>
-                            My name is <span className="text-darkerer-pink-ouga">Agahnim</span> 
+                            My name is <span className="text-darkerer-pink-ouga">Agahnim</span>
                             <span className="ml-1 px-2 py-[1px] text-xs rounded-full bg-blue-ouga text-white font-semibold">she/her</span>, I'm a <span className="text-darkerer-pink-ouga">developer</span> and <span className="text-darkerer-pink-ouga">music producer</span> from <span className="text-darkerer-pink-ouga">France</span> !
                             <br/><br/>
                             I created this website not just to <span className="text-darkerer-pink-ouga">improve</span> my web development skills, but also because it's <span className="inline-block text-darkerer-pink-ouga animate-bounce">fun</span> to build a project like this. It's a small, personal space on the internet, away from the social climate, which is getting <span className="text-red-700">worse and worse</span>
@@ -138,6 +138,17 @@ export default function HomeContent() {
                         </div>
                     </div>
                 </div>
+                <div className="bg-white bg-opacity-80 p-4 rounded shadow-md flex-[0.3] font-dotgothic">
+                  <div className="text-center">
+                  <img src="/gifs/updates.gif" alt="Projects" className="mx-auto w-130 mb-5"/>
+                  </div>
+
+                  <div>
+                    <h1 className="text-xl text-darkerer-pink-ouga">09/10/2025</h1>
+                    <p>Just added this section! For now its implementation is very unextensible, but since it's my project anyway, I'll be the only one who may complain about it. We finally have been able to move out from Vercel !! I would've said thank you for your service if the CEO wasn't such a scummy human being. Every step towards self-hosting is a step in the right direction!</p>
+                  </div>
+                </div>
+
             </div>
             <div className="fixed bottom-0 left-0 w-[200px]">
                 <img src="/images/boubouille.webp" width="200px"/>
