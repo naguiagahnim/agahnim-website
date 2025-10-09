@@ -1,4 +1,3 @@
-test
 <p align="center">
     <h1 align="center">Agahnim-Website</h1>
 </p>
@@ -24,7 +23,7 @@ test
 
 ## About
 
-The site is live and accessible at: [https://agahnim.vercel.app/](https://agahnim.vercel.app/).
+The site is live and accessible at: [https://agahnim.dev/](https://agahnim.dev/).
 
 ## Credits
 
